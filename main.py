@@ -134,4 +134,4 @@ port = os.getenv("PORT", 8000)
 
 if __name__ == "__main__":
     #multiprocessing.set_start_method("spawn",force=True)
-    app.run(host="0.0.0.0", port=port,single_process=True)
+    app.run(host="0.0.0.0", port=8000,single_process=True)
